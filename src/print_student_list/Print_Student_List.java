@@ -26,10 +26,10 @@ public class StudentList {
         s3.setName("john");
         s3.setId(3);
         // s1 - name, sid - not in array - save object
-        Student[] list = new Student[2];
+        Student[] list = new Student[3];
         list[0]=s1;
         list[1]=s2;
-        //list[2]=s3; //saved the objects in array
+        list[2]=s3; //saved the objects in array
         //print
         for(int i=0;i<list.length;i++)
         {
